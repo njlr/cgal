@@ -1,7 +1,5 @@
 {
   "name": "cgal-installation",
   "dependencies": {
-    "boost-config": "1.63.0",
-    "boost-predef": "1.63.0"
   }
 }
