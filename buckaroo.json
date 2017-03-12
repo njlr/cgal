@@ -1,7 +1,20 @@
 {
-  "name": "cgal-installation",
+  "name": "cgal",
   "dependencies": {
     "boost-config": "1.63.0",
-    "boost-predef": "1.63.0"
+    "boost-predef": "1.63.0",
+    "boost-static-assert": "1.63.0",
+    "boost-lexical-cast": "1.63.0",
+    "boost-utility": "1.63.0",
+    "boost-math": "1.63.0",
+    "boost-thread": "1.63.0",
+    "boost-variant": "1.63.0",
+    "boost-any": "1.63.0",
+    "boost-format": "1.63.0",
+    "boost-random": "1.63.0",
+    "boost-lambda": "1.63.0",
+    "boost-heap": "1.63.0",
+    "boost-property-map": "1.63.0",
+    "boost-detail": "1.63.0"
   }
 }

@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'implicit-functions',
+  header_namespace = '',
+  headers = subdir_glob([
+    ('', 'implicit_functions.h'),
+  ]),
+  srcs = [
+    'implicit_functions.cpp',
+  ],
+  deps = [
+    '//:cgal',
+  ],
+)

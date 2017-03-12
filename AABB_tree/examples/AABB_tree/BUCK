@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'triangle-3-example',
+  srcs = [
+    'AABB_triangle_3_example.cpp',
+  ],
+  deps = [
+    '//:cgal',
+  ],
+)

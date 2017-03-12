@@ -1076,6 +1076,7 @@ cmake_install.cmake
 *.exe
 *.so
 *.so.*
+*.eps
 
 # Sub-directories used by Visual Studio to put binaries:
 debug

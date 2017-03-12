@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'stl-regular-field',
+  srcs = [
+    'stl_regular_field.cpp',
+  ],
+  deps = [
+    '//:cgal',
+  ],
+)

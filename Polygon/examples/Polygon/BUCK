@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'example',
+  srcs = [
+    'Example.cpp',
+  ],
+  deps = [
+    '//:cgal',
+  ],
+)
