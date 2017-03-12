@@ -1,5 +1,5 @@
 {
-  "name": "cgal-stl-extension",
+  "name": "cgal-profiling-tools",
   "dependencies": {
     "cgal-installation": "4.9.0",
     "boost-static-assert": "1.63.0"
