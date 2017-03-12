@@ -1,5 +1,7 @@
 {
-  "name": "cgal-installation",
+  "name": "cgal-kernel-23",
   "dependencies": {
+    "cgal-installation": "4.9.0",
+    "boost-predef": "1.63.0"
   }
 }

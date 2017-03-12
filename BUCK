@@ -1,11 +1,13 @@
 include_defs('//BUCKAROO_DEPS')
 
-prebuilt_cxx_library(
-  name = 'cgal-distance-2',
-  header_only = True,
+cxx_library(
+  name = 'cgal-kernel-23',
   header_namespace = 'CGAL',
   exported_headers = subdir_glob([
-    ('Distance_2/include/CGAL', '**/*.h'),
+    ('Kernel_23/include/CGAL', '**/*.h'),
+  ]),
+  srcs = glob([
+    'Kernel_23/src/**/*.cpp',
   ]),
   visibility = [
     'PUBLIC',
